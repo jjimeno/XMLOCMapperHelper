@@ -1,4 +1,4 @@
 language: objective-c
 xcode_workspace: XMLModelMapper.xcworkspace # path to your xcodeproj folder
 xcode_scheme: XMLModelMapper
-script: xctool -workspace XMLModelMapper.xcworkspace -scheme XMLModelMapper clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+xcode_sdk: iphonesimulator9.2
