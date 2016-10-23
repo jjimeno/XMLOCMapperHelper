@@ -40,10 +40,12 @@
     XCTAssertNotNil(catalog);
     XCTAssertEqual(5, catalog.count);
     
-//    XCTAssertTrue([@"Tove" isEqualToString: note.to]);
-//    XCTAssertTrue([@"Jani" isEqualToString: note.from]);
-//    XCTAssertTrue([@"Reminder" isEqualToString: note.heading]);
-//    XCTAssertTrue([@"Don't forget me this weekend!" isEqualToString: note.body]);
+    XCTAssertTrue([@"Empire Burlesque" isEqualToString: catalog[0].title]);
+    XCTAssertTrue([@"Bonnie Tyler" isEqualToString: catalog[1].artist]);
+    XCTAssertTrue([@"USA" isEqualToString: catalog[2].country]);
+    XCTAssertTrue([@"Virgin records" isEqualToString: catalog[3].company]);
+    XCTAssertEqualWithAccuracy(10.20, catalog[3].price, 0.1f);
+    XCTAssertEqual(1997, catalog[4].year);
 
 }
 
