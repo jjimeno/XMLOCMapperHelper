@@ -25,6 +25,8 @@
 		D72781891DB95D41005DB847 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D72781851DB95D41005DB847 /* XMLReader.m */; };
 		D727818D1DB95DCD005DB847 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = D727818C1DB95DCD005DB847 /* Note.m */; };
 		D727818E1DB95DCD005DB847 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = D727818C1DB95DCD005DB847 /* Note.m */; };
+		D7A39FF21DC14A9A000E943F /* CDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D716EA8B1DBD632E00F43336 /* CDModel.m */; };
+		D7A39FF31DC14AAD000E943F /* OCMapperHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D716EA851DBCBDBC00F43336 /* OCMapperHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -412,9 +414,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A39FF21DC14A9A000E943F /* CDModel.m in Sources */,
 				D72781871DB95D41005DB847 /* README.md in Sources */,
 				D72781891DB95D41005DB847 /* XMLReader.m in Sources */,
 				D716EA891DBD623000F43336 /* CDCatalogModelMapperTests.m in Sources */,
+				D7A39FF31DC14AAD000E943F /* OCMapperHelper.m in Sources */,
 				D72781781DB959B6005DB847 /* NoteModelMapperTests.m in Sources */,
 				D727818E1DB95DCD005DB847 /* Note.m in Sources */,
 			);
@@ -541,6 +545,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = XMLModelMapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjl.XMLModelMapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -569,6 +574,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XMLModelMapperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjl.XMLModelMapperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMLModelMapper.app/XMLModelMapper";
