@@ -2,3 +2,4 @@ language: objective-c
 xcode_workspace: XMLModelMapper.xcworkspace # path to your xcodeproj folder
 xcode_scheme: XMLModelMapperTests
 xcode_sdk: iphonesimulator9.3
+script: xcodebuild -workspace XMLModelMapper.xcworkspace -scheme XMLModelMapper -configuration Release -sdk iphonesimulator9.3 -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' PLATFORM_NAME=iphonesimulator test
