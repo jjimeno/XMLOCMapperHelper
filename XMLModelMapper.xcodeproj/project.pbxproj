@@ -29,6 +29,7 @@
 		D7A39FF31DC14AAD000E943F /* OCMapperHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D716EA851DBCBDBC00F43336 /* OCMapperHelper.m */; };
 		D7FAA1AE1DC2888A00FCD055 /* BreakfastFood.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FAA1AD1DC2888A00FCD055 /* BreakfastFood.m */; };
 		D7FAA1B01DC2891700FCD055 /* BreakfastFoodMapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FAA1AF1DC2891700FCD055 /* BreakfastFoodMapperTest.m */; };
+		D7FAA1B11DC29B9D00FCD055 /* BreakfastFood.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FAA1AD1DC2888A00FCD055 /* BreakfastFood.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -428,6 +429,7 @@
 				D72781891DB95D41005DB847 /* XMLReader.m in Sources */,
 				D716EA891DBD623000F43336 /* CDCatalogModelMapperTests.m in Sources */,
 				D7FAA1B01DC2891700FCD055 /* BreakfastFoodMapperTest.m in Sources */,
+				D7FAA1B11DC29B9D00FCD055 /* BreakfastFood.m in Sources */,
 				D7A39FF31DC14AAD000E943F /* OCMapperHelper.m in Sources */,
 				D72781781DB959B6005DB847 /* NoteModelMapperTests.m in Sources */,
 				D727818E1DB95DCD005DB847 /* Note.m in Sources */,
