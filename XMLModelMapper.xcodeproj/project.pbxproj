@@ -27,6 +27,8 @@
 		D727818E1DB95DCD005DB847 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = D727818C1DB95DCD005DB847 /* Note.m */; };
 		D7A39FF21DC14A9A000E943F /* CDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D716EA8B1DBD632E00F43336 /* CDModel.m */; };
 		D7A39FF31DC14AAD000E943F /* OCMapperHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D716EA851DBCBDBC00F43336 /* OCMapperHelper.m */; };
+		D7FAA1AE1DC2888A00FCD055 /* BreakfastFood.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FAA1AD1DC2888A00FCD055 /* BreakfastFood.m */; };
+		D7FAA1B01DC2891700FCD055 /* BreakfastFoodMapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FAA1AF1DC2891700FCD055 /* BreakfastFoodMapperTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,9 @@
 		D72781851DB95D41005DB847 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		D727818B1DB95DCD005DB847 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = model/Note.h; sourceTree = "<group>"; };
 		D727818C1DB95DCD005DB847 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = model/Note.m; sourceTree = "<group>"; };
+		D7FAA1AC1DC2888A00FCD055 /* BreakfastFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreakfastFood.h; path = model/BreakfastFood.h; sourceTree = "<group>"; };
+		D7FAA1AD1DC2888A00FCD055 /* BreakfastFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreakfastFood.m; path = model/BreakfastFood.m; sourceTree = "<group>"; };
+		D7FAA1AF1DC2891700FCD055 /* BreakfastFoodMapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakfastFoodMapperTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +178,7 @@
 				D72781771DB959B6005DB847 /* NoteModelMapperTests.m */,
 				D72781791DB959B6005DB847 /* Info.plist */,
 				D716EA881DBD623000F43336 /* CDCatalogModelMapperTests.m */,
+				D7FAA1AF1DC2891700FCD055 /* BreakfastFoodMapperTest.m */,
 			);
 			path = XMLModelMapperTests;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 				D727818C1DB95DCD005DB847 /* Note.m */,
 				D716EA8A1DBD632E00F43336 /* CDModel.h */,
 				D716EA8B1DBD632E00F43336 /* CDModel.m */,
+				D7FAA1AC1DC2888A00FCD055 /* BreakfastFood.h */,
+				D7FAA1AD1DC2888A00FCD055 /* BreakfastFood.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -404,6 +412,7 @@
 				D72781881DB95D41005DB847 /* XMLReader.m in Sources */,
 				D727818D1DB95DCD005DB847 /* Note.m in Sources */,
 				D716EA861DBCBDBC00F43336 /* OCMapperHelper.m in Sources */,
+				D7FAA1AE1DC2888A00FCD055 /* BreakfastFood.m in Sources */,
 				D72781861DB95D41005DB847 /* README.md in Sources */,
 				D716EA8C1DBD632E00F43336 /* CDModel.m in Sources */,
 				D727815F1DB959B6005DB847 /* main.m in Sources */,
@@ -418,6 +427,7 @@
 				D72781871DB95D41005DB847 /* README.md in Sources */,
 				D72781891DB95D41005DB847 /* XMLReader.m in Sources */,
 				D716EA891DBD623000F43336 /* CDCatalogModelMapperTests.m in Sources */,
+				D7FAA1B01DC2891700FCD055 /* BreakfastFoodMapperTest.m in Sources */,
 				D7A39FF31DC14AAD000E943F /* OCMapperHelper.m in Sources */,
 				D72781781DB959B6005DB847 /* NoteModelMapperTests.m in Sources */,
 				D727818E1DB95DCD005DB847 /* Note.m in Sources */,
